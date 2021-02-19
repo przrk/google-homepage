@@ -1,4 +1,4 @@
-html {
+*, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 ul {
@@ -30,16 +30,31 @@ input[type=text] {
   height: 30px;
   width: 500px;
   border: 1px solid rgb(212, 212, 212);
-  border-radius: 10px;background-color:transparent;
+  border-radius: 20px;
   outline: none;
 }
-input:hover {
+input[type=text]:hover {
   box-shadow: 0 0 10px rgb(212, 212, 212);
 }
 .fa-search {
   position: relative;
   margin-right: -40px;
   color: rgb(116, 114, 114);
+}
+input[type=submit] {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+input[type=submit]:hover {
+  border: 1px solid rgb(212, 212, 212);
+  box-shadow: 0 0 5px rgb(212, 212, 212);
+}
+input[type=submit]:focus  {
+  border: 1px solid rgb(2, 56, 204);
 }
 footer {
   position: absolute;
